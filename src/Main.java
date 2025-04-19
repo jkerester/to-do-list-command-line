@@ -6,8 +6,11 @@ public class Main {
 		//tasklist.addTask("Do the dishes", "Incomplete");
 		ui.userAddTask();
 		ui.userAddTask();
+		ui.userAddTask();
 		ui.printTasklist();
+		ui.userEditTask();
 		ui.userDeleteTask();
+		ui.userMarkTaskComplete();
 		ui.printTasklist();
 	}
 

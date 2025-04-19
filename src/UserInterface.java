@@ -10,9 +10,21 @@ public class UserInterface {
 	}
 	
 	public void userDeleteTask() {
-		System.out.println("Enter the task here: ");
+		System.out.println("Enter the task to delete here: ");
 		String task = input.nextLine();
 		tasklist.deleteTask(task);
+	}
+	
+	public void userEditTask() {
+		System.out.println("Enter the task to edit here: ");
+		String task = input.nextLine();
+		tasklist.editTask(task);
+	}
+	
+	public void userMarkTaskComplete() {
+		System.out.println("Enter the task to mark complete: ");
+		String task = input.nextLine();
+		tasklist.markTaskComplete(task);
 	}
 	
 	public void printTasklist() {
